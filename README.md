@@ -11,15 +11,15 @@ If server properties has pause-when-empty-seconds greater than 0. When the serve
 Set pause-when-empty-seconds to 0 if you want the MOTD to always be changed.
 
 message-list default config:
-  Welcome Server
+  `Welcome Server
   Test
-  Change these strings!
+  Change these strings!`
 
 randomize-message-timer default config:
-  #Change MOTD timer set below
+  `#Change MOTD timer set below
   hours=0
   minutes=1
-  seconds=0
+  seconds=0`
 
 
 
