@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "random-motd",
+	"version": "${version}",
+	"name": "Random MOTD",
+	"description": "Changes server properties to have a random MOTD",
+	"authors": [
+		"RayStormThunder"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/randommotd/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"server": [
+			"net.raystormthunder.randommotd.ServerInitializer"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
