@@ -17,7 +17,7 @@ message-list default config:
 
 randomize-message-timer default config:  
   `#Change MOTD timer set below`  
-  `hours=0` 
+  `hours=0`  
   `minutes=1`  
   `seconds=0`  
 
