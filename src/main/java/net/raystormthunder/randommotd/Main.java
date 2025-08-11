@@ -139,6 +139,9 @@ public class Main implements ModInitializer {
         // Replace \u00a7 or \\u00a7 with § for color formatting
         motd = motd.replace("\\u00a7", "§").replace("\u00a7", "§");
 
+        // Convert /n and \n into actual newlines
+        motd = motd.replace("\\n", "\n").replace("/n", "\n");
+
         // Dynamically update the server MOTD
         if (server != null) {
             server.setMotd(motd);
